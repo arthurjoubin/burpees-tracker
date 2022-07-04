@@ -50,6 +50,10 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <div className={styles.grid}>
+        <iframe  src="https://airtable.com/embed/shrnKV7EcsVNEB3Ol?backgroundColor=orange&layout=card&viewControls=on" frameborder="0" onmousewheel="" width="2000" height="533" style={{background: "transparent", border: "1px solid #ccc", marginBottom:"30px"}}></iframe>
+        <iframe src="https://airtable.com/embed/shrPR1xByl10gJq5O?backgroundColor=orange&layout=card&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>       
+        </div>
       </main>
 
       <footer className={styles.footer}>
